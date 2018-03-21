@@ -1,34 +1,25 @@
 {
     "name": "jasacloud/qrcode",
-    "description": "Library to handle qrcode generator",
-    "keywords": ["jasacloud", "qrcode", "library"],
+    "description": "Library to handle QRCode generator",
+    "keywords": ["Jasacloud", "QRCode", "Library"],
     "type": "library",
     "homepage": "https://github.com/jasacloud/qrcode",
-    "license": "MIT",
-    "authors": [
-        {
-            "name": "Jasacloud",
-            "homepage": "https://github.com/jasacloud"
-        }
-    ],
+    "license": "GPL-3.0-or-later",
+    "authors": [{
+	    "name": "Dwi BudUt",
+	    "email": "dwi@jasacloud.com",
+	    "homepage": "https://www.jasacloud.com",
+	    "role": "Developer"
+	}],
     "require": {
-        "php": "^5.4|^7.0"
-    },
-    "require-dev": {
-        "phpunit/phpunit": "~4.0"
-    },
-    "suggest": {
-        "guzzlehttp/guzzle": "Allows for implementation of the Guzzle HTTP client"
+        "php": ">=5.4"
     },
     "autoload": {
         "psr-4": {
             "QRCode\\": "src/"
         },
-        "files": ["src/QRCode/qrlib.php"]
-    },
-    "extra": {
-        "branch-alias": {
-            "dev-master": "5.x-dev"
-        }
+        "files": [
+			"src/QRCode/qrlib.php"
+		]
     }
 }
